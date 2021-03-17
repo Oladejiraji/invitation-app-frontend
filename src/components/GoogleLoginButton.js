@@ -23,7 +23,17 @@ const GoogleLoginButton = () => {
                 onSuccess={responseGoogle}
                 onFailure={responseGoogle1}
                 cookiePolicy={'single_host_origin'}
-                
+                render={renderProps => (
+                    <div className='google-btn'>
+                        <div  onClick={renderProps.onClick} disabled={renderProps.disabled}>
+                        <i class="fab fa-google fa-2x"></i>
+                            <h3>
+                            Log In with Google
+                            </h3>
+                        </div>
+                       
+                    </div>
+                )}
             />
         </>
     )

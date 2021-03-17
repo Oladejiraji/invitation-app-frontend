@@ -16,7 +16,8 @@ const btnStlye = {
     borderRadius: '2px',
     fontSize: '1.1rem',
     fontWeight: 'bold',
-    letterSpacing: '1px'
+    letterSpacing: '1px',
+    cursor: 'pointer'
 }
 
 export default Button
