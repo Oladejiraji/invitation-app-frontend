@@ -69,11 +69,12 @@
   text-align: right;
 }
 
+
+/* google button styling */
 .google-btn{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   padding: 1rem 0;
 }
 
@@ -97,3 +98,5 @@
 .google-btn h3{
   margin-left: 0.5rem;
 }
+
+/*end of google button styling */
